@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"/>
+<style>
+ .preloader-container{
+  width: 100%;
+  height: 100vh;
+  position:fixed;
+  z-index:500;
+  top:0;
+  left:0;
+  margin:0 auto;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#161616
+}
+.preload-finish{
+  animation:slide-out-container 2s cubic-bezier(0.97, 0.01, 0.36, 0.99) 2.8s;
+  animation-fill-mode: forwards;
+  opacity: 0
+}
+.text-wrapper{color:#fff}
+.texts{
+  font-family:"Monument Extended";
+  font-weight:lighter;
+  font-size:2rem
+}
+.text-1, .text-3, .text-4, .text-8, .text-9, .text-11{
+color: #00000000;
+-webkit-text-stroke: 1px #fff
+}
+@keyframes blink{
+  0%{opacity: 0}
+  1%{opacity: 100%}
+  99%{opacity: 100%}
+  100%{opacity: 0}
+}
+.text-1{
+  animation: blink 0.8s linear 0.9s, blink 0.8s linear 2.0s;
+  opacity: 0
+}
+.text-2{
+  animation: blink 0.8s linear 0.8s, blink 0.8s linear 2.1s;
+  opacity: 0;
+}
+.text-3{
+  animation: blink 0.8s linear 0.7s, blink 0.8s linear 2.2s ;
+  opacity: 0
+}
+.text-4{
+  animation: blink 0.8s linear 0.6s, blink 0.8s linear 2.3s;
+  opacity: 0
+}
+.text-5{
+  animation: blink 0.8s linear 0.5s, blink 0.8s linear 2.4s;
+  opacity: 0
+}
+.text-6{
+  animation: blink 0.8s linear 0.4s, blink 0.8s linear 2.5s, slide-out 1s linear 3.2s;
+  opacity: 0
+}
+.text-7{
+  animation: blink 0.8s linear 0.5s, blink 0.8s linear 2.4s;
+  opacity: 0
+}
+.text-8{
+  animation: blink 0.8s linear 0.6s, blink 0.8s linear 2.3s;
+  opacity: 0
+}
+.text-9{
+  animation: blink 0.8s linear 0.7s, blink 0.8s linear 2.2s;
+  opacity: 0
+}
+.text-8{
+  animation: blink 0.8s linear 0.6s, blink 0.8s linear 2.3s;
+  opacity: 0
+}
+.text-9{
+  animation: blink 0.8s linear 0.7s, blink 0.8s linear 2.2s;
+  opacity: 0
+}
+.text-10{
+  animation: blink 0.8s linear 0.8s, blink 0.8s linear 2.1s;
+  opacity: 0
+}
+.text-11{
+  animation: blink 0.8s linear 0.9s, blink 0.8s linear 2s;
+  opacity: 0
+}
+@keyframes slide-out{
+  0%{opacity:0}
+  1%{opacity:1}
+  19%{opacity:1}
+  20%{opacity:0}
+  39%{opacity:0}
+  40%{opacity:0}
+  59%{opacity:1}
+  60%{opacity: 0}
+  79%{opacity: 0}
+  89%{opacity:1}
+  100%{opacity:1}
+}
+@keyframes slide-out-container{
+  0%{height:100vh}
+  40%{height:100vh}
+  100%{height:0}
+}
+</style>   
+
+</head>
+<body>
+    <div class="preloader-container">
+        <div class="text-wrapper"> 
+            <div class="text-1 texts">
+                Less is more
+            </div>
+            <div class="text-2 texts">
+                Less is more
+            </div>
+            <div class="text-3 texts">
+                Less is more
+            </div>
+            <div class="text-4 texts">
+                Less is more
+            </div>
+            <div class="text-5 texts">
+                Less is more
+            </div>
+            <div class="text-6 texts">
+            Less is more
+            </div>
+            <div class="text-7 texts">
+                Less is more
+            </div>
+            <div class="text-8 texts">
+                Less is more
+            </div>
+            <div class="text-9 texts">
+                Less is more
+            </div>
+            <div class="text-10 texts">
+                Less is more
+            </div>
+            <div class="text-11 texts">
+                Less is more
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="open-bar">
+        <div class="img">
+        </div>
+        <div class="linkers">
+                <span>HOME</span>    
+                    <span class="lookbook">LOOKBOOK</span>
+                    <span id="campaign">2020 S/S</span>
+                    <span id="campaign">2019 A/W</span>
+                    <span id="campaign">2019 SUMMER</span>
+               
+            <span>BLOG</span>
+            <span>ONLINE STORE</span>
+            <span>CONTACT</span>
+            </div>
+        </div>
+
+<div class="banner">
+    <div class="navbar"> 
+        <span class="logo">MAYFAIR</span>
+       
+    <div class="hamburger">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+    </div>
+
+
+</div>
+   
+  
+        <div class="containers">
+            <h2>Many Types, Authentic Quality</h2>
+            <h3>Wide variety and reliable quality</h3>
+            <p>
+                Commitment to manufacturing and a sense of stability that the history of more than 90 years tells. <br>
+                Because everything has a base <br>
+                It can be stacked on top of it. <br>
+                Over 190 variations, including T-shirts <br>
+                A blank apparel brand that boasts high quality and fun to choose from<br>
+                That is MAYFAIR
+            </p>
+        
+        </div>
+
+
+<div class="smooth-scroll-wrapper">
+    <div class="content">
+        <div class="sub-parallax-container">
+            <div class="image-container">
+                <h2 class="text text-dark">
+                    <span class="parallax-title">
+                        we live in the details
+                    </span>
+                </h2>
+            </div>
+
+            <h2 class="text">
+                <span class="parallax-title">
+                    we live in the details
+                </span>
+            </h2>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="lifter-grid">
+    <div class="box-1">
+        <img class="lifter-grid-img1"/>
+    </div>
+    <div class="box-2">
+        <button class="lifter-link1 lifter-link" name="link1">Trousers</button>
+        <button class="lifter-link2 lifter-link" name="link2">Tees</button>
+        <button class="lifter-link3 lifter-link" name="link3">Shorts</button>
+        <button class="lifter-link4 lifter-link" name="link4">Hoodies</button>
+        <button class="lifter-link5 lifter-link" name="link5">Caps</button>
+
+    </div>
+    <div class="box-3">
+        <img class="lifter-grid-img2"/>
+    </div>
+</div>
+
+
+
+<div class="holder">
+    <div class="overlay"></div>
+    <div class="interchanging-bg">
+  
+      
+       
+    </div>
+    <div class="body">
+        <h5>LOOK</h5>
+        <h6>Fine Selection Issue Vol.06</h6>
+        <ul>
+            <li class="interchanging-link-1"><span>01</span>SEASON COLLECTION</li>
+            <li class="interchanging-link-2"><span>02</span>NEXT COLLECTION</li>
+        </ul>
+       
+    </div>
+</div>
+
+
+
+<div class="floater-section">
+    <div class="floater-imgs">
+        <img id="img1" src="/images/overall3.webp"/>
+        <img id="img2" src="/images/floater4.jpg"/>
+    </div>
+    <div class="second">
+        <h3>ABOUT</h3>
+        <h2>You should "OWN" what you wear, not owned by it</h2>
+        <p>The era, culture, technology</p>
+        <p>We are always controlled by something</p>
+        <p>Those that can "break through" in life are those who create value from what exists universely</p>
+        <p>We wish that our clothes can let you "express" yourself according to your own special values</p>
+    </div>
+</div>
+
+
+    <div class="footer">
+        <li>
+            HOME
+        </li>
+        <div>
+            <p>
+                LOOKBOOK
+            </p>
+            <li id="campaign">2020 S/S</li>
+            <li id="campaign">2019 A/W</li>
+            <li id="campaign">2019 SUMMER</li>
+        </div>
+        <li>ONLINE STORE </li>
+        <li>CONTACT</li>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
+
+
